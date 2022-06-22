@@ -269,7 +269,7 @@ video:focus{
     margin-bottom:5px
 }
 .rounded{
-    border-radius:6px !important
+    border-radius:6px !important;
 }
 .rounded-top{
     border-top-left-radius:6px !important;
@@ -294,7 +294,7 @@ video:focus{
     border-radius:30px !important
 }
 .border{
-    border:1px solid #e9ecef !important
+    border:1px solid #292929 !important
 }
 .border-top{
     border-top:1px solid #e9ecef !important
@@ -4213,7 +4213,7 @@ p{
     }
 }
 .footer{
-    background:#202942;
+    background:#E88846;
     padding:60px 0;
     position:relative;
     color:#adb5bd
