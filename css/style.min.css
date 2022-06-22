@@ -403,15 +403,18 @@ video:focus{
     box-shadow:0 3px 5px 0 rgba(90,109,144,0.3)
 }
 .btn-success{
-    background-color:#2eca8b !important;
-    border:1px solid #2eca8b !important;
+    border:1px solid #FDCF73 !important;
     color:#fff !important;
-    -webkit-box-shadow:0 3px 5px 0 rgba(46,202,139,0.3);
-    box-shadow:0 3px 5px 0 rgba(46,202,139,0.3)
+    -webkit-box-shadow:0 3px 5px 0 #E8884630;
+    box-shadow:0 3px 5px 0 #E8884630;
+    background-image: linear-gradient(90deg,#E88846, #FDCF73,#E88846) !important;
+    transition: transform .5s ease;
+    background-size: 250%;
+    text-transform: uppercase;
 }
 .btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.btn-success.focus{
-    background-color:#25a06e !important;
-    border-color:#25a06e !important;
+    background-position: 90%;
+    border-color:#FDCF73 !important;
     color:#fff !important
 }
 .btn-soft-success{
